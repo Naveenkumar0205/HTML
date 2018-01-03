@@ -6,8 +6,139 @@
 
 
 <p>TO write a Paragraph</p>
-
+------------------------------------------------------------------------------
 <hx>TO write headers</hx>
+
 [There are are six types of headers from h1 to h6. The 1 to 6 denotes 
-that the change in the size of header. Where x is denotes from 1 to 6] 
+that the change in the size of header. Where x is denotes from 1 to 6]
+------------------------------------------------------------------------------
+[In HTML list format also avaiable like ordered and unordered list .
+In unordered list it shows dots(.) in bullets and in ordered list it is 
+followed by numbers like 1,2,3,..]
+
+For unordered list :-
+------------------
+<ul><li>Some text</li> </ul>
+
+For ordered list :-
+----------------
+<ol><li>Some text</li></ol>
+
+------------------------------------------------------------------------------
+Tables :- In HTML we can use tables format like rows and columns.
+-------
+
+<table></table> is table tag
+
+<tr></tr> is row tag
+
+<td></td> is column tag (or) data tag where you can write your data
+
+for example :-
+------------
+
+<table>
+	<tr>
+		<td>your data</td>
+		<td>Your data</td>
+	</tr>
+</table>
+
+In such a way you can create a 'n' number of rows and 'n' number of 
+columns
+
+------------------------------------------------------------------------------
+
+Forms :- In HTML we create use forms like any login form,application 
+------   forms,etc.
+
+
+<form></form> is form tag
+
+for example :-
+---------
+<form>
+	Text:<input type="Text" name="UserName">
+	Password:<input type="Password" name="Password">
+	Radio:<input type="Radio" name="">
+	Checkbox:<input type="Checkbox" name="">
+	Submit:<input type="Submit" name="">
+</form>
+
+->If input type is text , It allows to enter text. The charecters are visible while your are typing.
+                   ----
+->If input type is password , It allows to enter password. The charecters are invisible while your are typing.
+                  ----------
+
+->Submit is Button, When you click on submit it refreshes the page and the entered data will be stored in database.
+
+->placeholder  is used to give a watermark for what the box is needed.
+  -----------
+
+for exapmple :-
+-------------
+
+
+<form>
+	<input type="Text" name="UserName" placeholder="ENTER YOUR EMAIL ID">
+	<input type="Password" name="Password" placeholder="Enter your Password">
+	Radio:<input type="Radio" name="radio">
+	Checkbox:<input type="Checkbox" name="checkbox">
+	Submit:<input type="Submit" name="submit">
+</form>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Division :- Division or seperation of lines from one to another. 
+--------
+
+<div></div> is division tag
+
+for example :-
+-----------
+<div>
+	<form>
+		Text:<input type="Text" name="UserName">
+		<input type="Password" name="Password" placeholder="Enter your Password">
+		Radio:<input type="Radio" name="">
+		Checkbox:<input type="Checkbox" name="">
+		Submit:<input type="Submit" name="">
+	</form>
+</div>
+
+<div>
+	<form>
+		Text:<input type="Text" name="UserName">
+		Password:<input type="Password" name="Password">
+		Radio:<input type="Radio" name="">
+		Checkbox:<input type="Checkbox" name="">
+		Submit:<input type="Submit" name="">
+	</form>
+</div>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If we want to connect to an another link from our website or webpage, This is below tag used
+
+<a href=X></a>
+[where X refers any website like https://www.google.com]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If we want to insert a image in our webpage, This below tag is used
+
+<img src =X />
+[where X denotes Image source]
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comments line is indicated by <!-- your comment -->
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+We can link html or css file in another html file 
+
+<link rel="stylesheet" type="text/css" href="X">
+[where X is something.css or something.html]
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
